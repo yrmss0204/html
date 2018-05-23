@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>10_form태그</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<div>
+	<h1>method="get"</h1>
+	<!--
+	form : 데이터를 전송하기 위한 범위
+		- name : form 구별하기 위한 이름
+		- method : 전송방식 - get / post
+		- action : 버튼 클릭시 이동되는 페이지, 만약 페이지 이동이 없으면 생략
+	-->
+	<form name="" method="get" >
+	<div>
+		<span>이름</span>
+		<input type="text" name="user_name" id="" value="" />
+	</div>
+	<div>
+		<span>성별</span>
+		<input type="radio" name="gender" id="man" value="남자" />
+		<label for="man">남자</label>
+		<input type="radio" name="gender" id="woman" value="여자" checked/>
+		<label for="woman">여자</label>
+	</div>
+	<div><input type="submit" name="" id="" value="가입" /></div>
+	</form>
+
+	<hr />
+	<h1>method="post"</h1>
+	<form name="" method="post" >
+	<div>
+		<span>이름</span>
+		<input type="text" name="u_name" id="" value="" />
+	</div>
+	<div>
+		<span>성별</span>
+		<input type="radio" name="g" id="m" value="남자" />
+		<label for="m">남자</label>
+		<input type="radio" name="g" id="w" value="여자" />
+		<label for="w">여자</label>
+	</div>
+	<div><input type="submit" name="" id="" value="가입" /></div>
+	</form>
+
+</div>
+
+</body>
+
+</html>
